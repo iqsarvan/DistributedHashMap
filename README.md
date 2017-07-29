@@ -1,7 +1,8 @@
 # DistributedHashMap
 1. Running as App
-	- cd <PATH/DistributedHashMap>
-	- javac -d bin src\main\java\com\assignment\DistributedHashMap\*.java
+	- cd <PATH-TO\DistributedHashMap-master\DistributedHashMap>
+	- mkdir bin
+	- javac -d bin src\main\java\com\assignment\DistributedHashMap\*.java (Use / in linux)
 	- java -cp bin com.assignment.DistributedHashMap.App
 	- DistributedHashMap App
 	```
@@ -16,6 +17,7 @@
 	```
 	
 2. Running Rest Api
+	- cd <PATH-TO\DistributedHashMap-master\DistributedHashMap>
 	- mvn clean install -DskipTests=true
 	- java -jar target/DistributedHashMap-0.0.jar
 	- http://localhost:8080/put?key=k2&value=v4456
