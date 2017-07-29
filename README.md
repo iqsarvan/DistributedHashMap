@@ -4,7 +4,6 @@
 	- javac -d bin src\main\java\com\assignment\DistributedHashMap\*.java
 	- java -cp bin com.assignment.DistributedHashMap.App
 	- DistributedHashMap App
-		======================
 		Open multiple terminals and use following commands
 		Usage: java -cp  DistributedHashMap-0.0.jar com.assignment.DistributedHashMap.App
 			Commands allowed :
